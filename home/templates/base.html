@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="templatemo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+
+    <title>Liberty NFT Marketplace - HTML CSS Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-liberty-market.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/animate.css' %}">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+<body>
+
+<!-- ***** Preloader Start ***** -->
+<div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+<!-- ***** Preloader End ***** -->
+
+{% block header %}{% include "components/header.html" %}{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}{% include "components/footer.html" %}{% endblock %}
+
+<!-- Scripts -->
+<!-- Bootstrap core JavaScript -->
+<script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+
+<script src="{% static 'assets/js/isotope.min.js' %}"></script>
+<script src="{% static 'assets/js/owl-carousel.js' %}"></script>
+
+<script src="{% static 'assets/js/tabs.js' %}"></script>
+<script src="{% static 'assets/js/popup.js' %}"></script>
+<script src="{% static 'assets/js/custom.js' %}"></script>
+
+</body>
+</html>
